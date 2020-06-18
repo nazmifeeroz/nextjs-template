@@ -1,5 +1,7 @@
 {
   "parser": "babel-eslint",
+  "plugins": ["jest"],
+
   "env": {
     "browser": true,
     "node": true
@@ -8,7 +10,9 @@
     "airbnb",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "prettier"
+    "plugin:jest/recommended",
+    "prettier",
+    "@storybook/eslint-config-storybook"
   ],
   "settings": {
     "import/resolver": {
