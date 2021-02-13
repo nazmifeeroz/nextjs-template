@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "update": "chmod +x ./update.sh && ./update.sh",
+    "build": "next build",
     "dev": "next dev",
     "storybook": "start-storybook",
-    "test": "jest"
+    "test": "jest",
+    "update": "chmod +x ./update.sh && ./update.sh"
   },
   "keywords": [],
   "author": "",
