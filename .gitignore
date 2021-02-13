@@ -1,4 +1,7 @@
+*.lock*
+*.tfstate*
 .next
+.terraform
 .vercel
 .vscode
 node_modules

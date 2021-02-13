@@ -16,3 +16,13 @@ Run `yarn update`
 ## Github Actions
 
 Located in `./.github/workflows/deploy.yml`
+
+## AWS Infrastructure setup
+
+Update your bucket name and aws region in `./terraform/variables.tf`
+
+run `terraform init && terraform apply -auto-approve`
+
+### Outputs
+
+- website url
