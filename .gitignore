@@ -1,6 +1,7 @@
-node_modules
 .next
 .vercel
 .vscode
+node_modules
+out
 yarn-error.log
 yarn.lock
