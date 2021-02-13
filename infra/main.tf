@@ -28,5 +28,5 @@ resource "aws_s3_bucket" "bucket" {
 
 output "url" {
   description = "The domain of the website endpoint "
-  value       = aws_s3_bucket.bucket.bucket_domain_name
+  value       = aws_s3_bucket.bucket.bucket_regional_domain_name
 }
