@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const IndexPage = () => {
-  return <Container>Next JS Template</Container>
+  return <Container>Next JS Template with Cloudfront AWS!</Container>
 }
 
 const Container = styled.div`
