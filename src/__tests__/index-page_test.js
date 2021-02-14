@@ -5,5 +5,5 @@ import IndexPage from '_pages'
 test('shows Index page template', () => {
   render(<IndexPage />)
 
-  expect(screen.queryByText(/Next JS Template/)).toBeTruthy()
+  expect(screen.queryByText(/Next JS Template fail/)).toBeTruthy()
 })
