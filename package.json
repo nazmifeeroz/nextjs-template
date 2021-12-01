@@ -22,7 +22,10 @@
     "xstate": "^4.26.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
     "@testing-library/react": "^12.1.2",
+    "babel-jest": "^27.4.2",
     "eslint": "7",
     "eslint-config-next": "^12.0.4",
     "jest": "^27.4.2"

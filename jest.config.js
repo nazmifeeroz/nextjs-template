@@ -8,6 +8,7 @@ module.exports = {
   testEnvironment: 'jsdom',
   testURL: 'http://localhost',
   transform: {
-    '^.+\\.(js|jsx)$': 'babel-jest',
+    '^.+\\.(js|jsx)$': ['babel-jest', { configFile: './babel.config.test.js' }],
   },
+  modulePathIgnorePatterns: ['babel.config.test.js'],
 }
