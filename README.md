@@ -7,7 +7,6 @@
 - Next JS
 - Styled Components
 - XState
-- Storybook
 
 ## Update dependencies
 
